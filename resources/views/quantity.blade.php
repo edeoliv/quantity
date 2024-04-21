@@ -35,7 +35,7 @@
     </x-slot>
 
     <div
-        {{-- you're more than welocm to refactor this agully code to use alpine async --}}
+        {{-- you're more than welocm to refactor this ugly code to use alpine async --}}
         {{--ax-load-src="{{ \Filament\Support\Facades\FilamentAsset::getAlpineComponentSrc('quantity','lara-zeus/quantity') }}"
         ax-load
         x-data="quantityPlugin({
@@ -48,8 +48,8 @@
 
         x-data="{
             state: $wire.$entangle('{{ $getStatePath }}'),
-            maxValue: {{ $getMaxValue ?? '0' }},
-            minValue: {{ $getMinValue ?? '0' }},
+            maxValue: {{ $getMaxValue ?? 999999 }},
+            minValue: {{ $getMinValue ?? 0 }},
             isDecrementAllowed: true,
             isIncrementAllowed: true,
             increment() {
