@@ -52,7 +52,7 @@
             minValue: {{ $getMinValue ?? 0 }},
             isDecrementAllowed: true,
             isIncrementAllowed: true,
-            isDisabled: {{ $isDisabled ? 'true' : 'false' }}
+            isDisabled: {{ $isDisabled ? 'true' : 'false' }},
             increment() {
                 if(! this.isDisabled && this.state < this.maxValue && this.state >= this.minValue){
                     this.state++
