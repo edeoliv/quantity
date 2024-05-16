@@ -2,6 +2,19 @@
 
 All notable changes to `Quantity` will be documented in this file
 
+## 1.0.6 - 2024-05-16
+
+### What's Changed
+
+* Bump dependabot/fetch-metadata from 2.0.0 to 2.1.0 by @dependabot in https://github.com/lara-zeus/quantity/pull/12
+* Disable increments and decrements if the field is disabled by @masterix21 in https://github.com/lara-zeus/quantity/pull/13
+
+### New Contributors
+
+* @masterix21 made their first contribution in https://github.com/lara-zeus/quantity/pull/13
+
+**Full Changelog**: https://github.com/lara-zeus/quantity/compare/1.0.5...1.0.6
+
 ## 1.0.5 - 2024-04-21
 
 ### What's Changed
