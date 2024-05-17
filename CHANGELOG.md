@@ -2,6 +2,14 @@
 
 All notable changes to `Quantity` will be documented in this file
 
+## 1.0.7 - 2024-05-17
+
+### What's Changed
+
+* FIX missed comma by @masterix21 in https://github.com/lara-zeus/quantity/pull/14
+
+**Full Changelog**: https://github.com/lara-zeus/quantity/compare/1.0.6...1.0.7
+
 ## 1.0.6 - 2024-05-16
 
 ### What's Changed
